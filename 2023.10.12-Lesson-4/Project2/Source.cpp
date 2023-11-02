@@ -31,7 +31,8 @@ void printReverseArray(int* a, int n)
 		std::cout << a[n - i - 1] << " ";
 	}
 	std::cout << std::endl;
-}void printReverseArray2(int* a, int n)
+}
+void printReverseArray2(int* a, int n)
 {
 	for (int i = n - 1; i >= 0; --i)
 	{
@@ -61,3 +62,25 @@ int main(int argc, char* argv[])
 	delete[] a;
 	return EXIT_SUCCESS;
 }
+
+/*
+Implement functions according to the task.
+Each task should be solved in a separate cpp file.
+Each program should start with reading dynamic array from standard input (std::cin)
+
+1). Count positive elements.
+1 2 -3 -4 -5 6 -> 3
+2). Remove negative elements.
+1 2 -3 -4 -5 6 -> 1 2 6
+3). Reverse the array (swap(a[0]; a[n - 1]), swap(a[1]; a[n - 2]), ...).
+1 2 3 4 5 -> 5 4 3 2 1
+4). Swap first maximum element and last minimum element.
+1 1 1 2 2 2 2 -> 1 1 2 1 2 2 2
+2 2 2 2 1 1 1 -> 1 2 2 2 1 1 2
+5). Count sum of elements.
+1 2 3 4 5 -> 15
+6). Swap elements with odd indexes with elements with even indexes
+1 2 3 4 5 6 -> 2 1 4 3 6 5
+
+Don't forget to cleanup the memory.
+*/
