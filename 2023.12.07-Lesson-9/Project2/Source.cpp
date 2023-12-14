@@ -11,7 +11,7 @@ int main(int argc, char** argv)
 	char* str1 = (char*)malloc(LEN * sizeof(char));
 
 	scanf("%s", str1);
-	gets_s(str2);
+	gets_s(str2); 
 
 	printf("str1 = %s\nstr2 = %s\n", str1, str2);
 
