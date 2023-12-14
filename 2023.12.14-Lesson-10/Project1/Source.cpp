@@ -156,7 +156,6 @@ void quickSort(int arr[], int low, int high) {
 	}
 }
 
-
 void merge(int arr[], int left[], int leftSize, int right[], int rightSize) {
 	int i = 0;
 	int j = 0;
