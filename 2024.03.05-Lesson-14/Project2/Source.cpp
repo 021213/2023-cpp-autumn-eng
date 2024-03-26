@@ -36,6 +36,7 @@ struct ArrayList {
 			data[i] = src.data[i];
 		}
 	}
+
 	//desctructor
 	~ArrayList()
 	{
