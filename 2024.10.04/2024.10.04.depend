@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1728033793 source:c:\users\st021213\source\repos\2024.10.04\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	"ArrayList.h"
+
+1728032464 source:c:\users\st021213\source\repos\2024.10.04\src\arraylist.cpp
+	"ArrayList.h"
+
+1728032415 c:\users\st021213\source\repos\2024.10.04\include\arraylist.h
+	<ostream>
+
