@@ -148,6 +148,7 @@ public:
 		return res;
 	}
 
+	/*TODO: implement all unimplemented methods in LinkedList.h*/
 	T& operator[](int index);
 	LinkedList<T>& operator=(LinkedList<T>& list);
 	LinkedList<T>& operator+(LinkedList<T>& list);
